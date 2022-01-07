@@ -25,8 +25,9 @@ h1{
 }
 
 .half-width img{
-    margin-right: 40%;
+    margin-right: 20%;
     width: 60%;
+
 }
 #top-para{
     margin-left: 10%;
@@ -113,4 +114,72 @@ h2{
     background-image: url(images/shapes/middle-banner.jpg);
     background-repeat: no-repeat;
     background-position: right;
+}
+.third-banner{
+    background-image: url(images/shapes/third-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+h3{
+    
+    margin-top: 15%;
+    font-size: 40px;
+    line-height: 0px
+}
+
+.third-para{
+    margin-right:25%;
+    text-align: justify;
+}
+
+.read-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    background-color:salmon,;
+    color: white;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-left: 0%;
+}
+
+.picture-third img{
+    width: 65%;
+    margin-left: 30%;
+
+}
+h4{
+    margin-top: 15%;
+    font-size: 40px;
+    line-height: 0%;
+
+}
+.fourth-para{
+    margin-left:12%;
+    text-align: justify;
+}
+.picture-fourth img{
+    width: 50%;
+    margin-Right: 30%;
+    margin-left: 20%;
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+footer h1{
+    padding-top: 3%;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#coloer-footer-header{
+    color:lightcoral;
+}
+#coloer-footer-black{
+    color:white;
+}
+footer{
+    background: black;
 }
